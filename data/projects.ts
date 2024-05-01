@@ -30,7 +30,6 @@ import {
   webRtc,
   mediaSoup,
   copyLeaks,
-  faceApi,
   apexChart,
   pdfKit,
 } from '@/components/icons';
@@ -244,7 +243,7 @@ export const projects: Project[] = [
     slug: 'personal-portfolio',
     status: {
       status: 'Completed',
-      comment: 'The project was completed on time and within budget',
+      comment: 'The project was completed on time',
     },
     technologies: [typescript, nextjs, reactJs, tailwindCss],
     tools: [vsCode, git, github],
